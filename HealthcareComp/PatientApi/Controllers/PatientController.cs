@@ -14,9 +14,6 @@ namespace PatientApi.Controllers;
 [Route("[controller]")]
 public class PatientController : ControllerBase
 {
-
-
-    
     private HttpClient _client = new() { };
 
     private const string PatientService = "patient-service/PatientService";

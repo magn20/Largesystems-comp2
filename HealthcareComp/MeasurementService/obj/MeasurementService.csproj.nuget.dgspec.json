@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {}
+    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {
+    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
         "projectName": "MeasurementService",
-        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
         "packagesPath": "C:\\Users\\Overgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementService\\obj\\",
+        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Overgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
-                "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj"
+              "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
+                "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj"
               },
-              "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
-                "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj"
+              "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
+                "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
+    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
         "projectName": "Monitoring",
-        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
         "packagesPath": "C:\\Users\\Overgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
+        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Overgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
+    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
+        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
         "projectName": "SharedModels",
-        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
+        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
         "packagesPath": "C:\\Users\\Overgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\obj\\",
+        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Overgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"

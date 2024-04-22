@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HSdVUd7v4w/TBhER7Lb4tBDwJjFsCpJ9iIxJgSBFu5EUW1trbKsEnoyB298cULCfelDcPaTrk1wrcUlFIREZuQ==",
+  "dgSpecHash": "GDhmBGXJd/AMSZ4wnpx5mtjS+WGaqee7wXjjHWznfTRyYfnOQsFoHI3fPQ/7kZ05svKXqHZ780/SNPf5SHb/6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\PatientService\\PatientService.csproj",
+  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\PatientService\\PatientService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Overgaard\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Overgaard\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

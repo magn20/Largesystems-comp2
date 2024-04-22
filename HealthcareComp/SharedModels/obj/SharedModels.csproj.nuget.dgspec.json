@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {}
+    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
+    "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
+        "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
         "projectName": "SharedModels",
-        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
+        "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
         "packagesPath": "C:\\Users\\Overgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\SharedModels\\obj\\",
+        "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Overgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"

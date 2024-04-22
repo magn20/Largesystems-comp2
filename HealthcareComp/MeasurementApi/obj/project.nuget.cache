@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8APAI4uk6bRZqlXI0i+sv2WhG4EzoU5x6RKIPjwoqWsf8zI928uPwvrrYst4iZ+Ufiwng8xKX3J+dkd8kN0gEQ==",
+  "dgSpecHash": "HNkLK9jzF5KFM0clJs6pmgwgDaX6vQiRM/Vd7jyqcSh8oGP7OIDzhHcoFfj/m9M8e+95DHvM6b1b0EaK/W8m1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementApi\\MeasurementApi.csproj",
+  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementApi\\MeasurementApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Overgaard\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.16\\microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",
     "C:\\Users\\Overgaard\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

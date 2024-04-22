@@ -1,10 +1,7 @@
-﻿using System.Diagnostics.Metrics;
-using System.Net;
+﻿using System.Net;
 using System.Text.Json;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Monitoring;
-using OpenTelemetry.Trace;
 using Serilog;
 using SharedModels.models;
 

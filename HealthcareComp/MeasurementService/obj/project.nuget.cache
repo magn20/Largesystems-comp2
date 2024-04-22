@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5yfeDdnZDlyRt3ko9OUyG2Q7TOMnxNydzO9oLoSiv4GxvITZY+ZFxFU1r2W7sinSrl3A2sOvNXm99gn3zMS8ew==",
+  "dgSpecHash": "zy/rQzkcSYvdQKVKJEVhYwW2dOeX26BfW3E2hKtm6EanuNDOZqITF5b+O26ney7tlB5ckhuEpGCUYY5DQd7tlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Overgaard\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Overgaard\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

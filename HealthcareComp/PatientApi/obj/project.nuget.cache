@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k0i7R3aWPM3CDeGrBUqmw/Q5QlieC1xtrYHhvrLSynH2Ncb9l5WYEgCew2TKZkhvntiCEIX61sZVZIao6qmLrg==",
+  "dgSpecHash": "t8VGQYDEn9GQtVNBznNmzOfMyarl28Vq0rTE35iQ9ubXDfWTb1uTJZ0BkHT2Gum3jeJtaBcJgDIF3pJ5plSMsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\HealthcareComp\\PatientApi\\PatientApi.csproj",
+  "projectFilePath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\PatientApi\\PatientApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Overgaard\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",
     "C:\\Users\\Overgaard\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
