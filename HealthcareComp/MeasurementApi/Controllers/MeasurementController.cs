@@ -70,7 +70,7 @@ public class MeasurementController : ControllerBase
         return BadRequest($"failed with status code of {resultMessage.StatusCode} message is: {resultMessage}");
     }
     
-    [HttpPost]
+    [HttpPut]
     [Route("UpdateMeasurement")]
     public async Task<ActionResult> UpdateMeasurement(Measurement measurement)
     {

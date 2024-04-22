@@ -34,7 +34,7 @@ public class MeasurementServiceController : ControllerBase
         return Ok("");
     }
     
-    [HttpPost]
+    [HttpPut]
     [Route("UpdateMeasurement")]
     public async Task<ActionResult> UpdateMeasurement(Measurement measurement)
     {

@@ -57,7 +57,7 @@ public class MeasurementRepository : IMeasurementRepository
             using var con = GetConnection();
             using SqlCommand cmd =
                 new SqlCommand(
-                    "UPDATE Measurement WHERE id = @id SET (systolic, diastolic ) VALUES (@systolic, @diastolic)",
+                    "UPDATE Measurement SET systolic = @systolic, diastolic = @diastolic WHERE id = @id",
                     con);
             cmd.Parameters.AddWithValue("@id", measurement.Id);
             cmd.Parameters.AddWithValue("@systolic", measurement.Systolic);
