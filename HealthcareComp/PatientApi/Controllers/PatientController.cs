@@ -27,9 +27,10 @@ public class PatientController : ControllerBase
     
     
     [HttpGet]
-    public async Task<ActionResult> GetPatient()
+    [Route("GetPatient/{id:int}")]
+    public async Task<ActionResult> GetPatient([FromRoute] int id)
     {
-        var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{PatientService}"));
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{PatientService}/GetPatient/{id}"));
         Log.Logger.Debug("Entered Patient controller");
 
         TraceRequest.InjectContext(request);

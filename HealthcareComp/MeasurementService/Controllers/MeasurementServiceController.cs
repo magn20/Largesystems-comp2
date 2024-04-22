@@ -40,7 +40,7 @@ public class MeasurementServiceController : ControllerBase
     {
         Log.Logger.Debug("Entered Measurement controller");
         _measurementService.UpdateMeasurement(measurement);
-        return Ok("hello");
+        return Ok("");
     }
     
 }

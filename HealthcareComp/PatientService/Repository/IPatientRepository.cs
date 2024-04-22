@@ -10,7 +10,7 @@ public interface IPatientRepository
 
     void DeletePatient(Patient patient);
 
-    List<Patient> GetPatient();
+    Patient GetPatient(int ssn);
     
 
 }

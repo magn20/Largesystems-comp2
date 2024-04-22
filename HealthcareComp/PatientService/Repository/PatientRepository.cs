@@ -68,27 +68,29 @@ public class PatientRepository : IPatientRepository
         }
     }
 
-    public List<Patient> GetPatient()
+    public Patient GetPatient(int ssn)
     {
         try
         {
-            var patientList = new List<Patient>();
+            var patient = new Patient();
             using var con = GetConnection();
-            var command = new SqlCommand("SELECT * FROM Patient", con);
+            var command = new SqlCommand("SELECT * FROM Patient WHERE ssn= @ssn", con);
+            command.Parameters.AddWithValue("@ssn", ssn);
+
 
              using var reader =  command.ExecuteReader();
             while (reader.Read())
             {
-                var patient = new Patient()
+                patient = new Patient()
                 {
                     Ssn = reader.GetString(reader.GetOrdinal("ssn")),
                     Mail = reader.GetString(reader.GetOrdinal("mail")),
                     Name = reader.GetString(reader.GetOrdinal("name")),
                 };
-                patientList.Add(patient);
+               
             }
 
-            return patientList;
+            return patient;
         }
         catch (System.Exception ex)
         {

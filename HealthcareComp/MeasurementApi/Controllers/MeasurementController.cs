@@ -18,7 +18,7 @@ public class MeasurementController : ControllerBase
     [Route("GetPatientMeasurement/{id:int}")]
     public async Task<ActionResult<List<Measurement>>> GetPatientMeasurement([FromRoute] int id)
     {
-        var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{MeasurementService}/{id}"));
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{MeasurementService}/GetPatientMeasurement/{id}"));
         Log.Logger.Debug("Entered Measurement Api");
 
         TraceRequest.InjectContext(request);
