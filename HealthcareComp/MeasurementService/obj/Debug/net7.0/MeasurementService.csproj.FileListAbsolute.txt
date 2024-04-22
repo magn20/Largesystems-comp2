@@ -1,0 +1,7 @@
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.csproj.AssemblyReference.cache
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.AssemblyInfoInputs.cache
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.AssemblyInfo.cs
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.csproj.CoreCompileInputs.cache
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\MeasurementService\obj\Debug\net7.0\MeasurementService.MvcApplicationPartsAssemblyInfo.cache

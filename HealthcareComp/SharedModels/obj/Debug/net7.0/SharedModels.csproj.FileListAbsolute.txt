@@ -1,0 +1,11 @@
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\bin\Debug\net7.0\SharedModels.deps.json
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\bin\Debug\net7.0\SharedModels.dll
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\bin\Debug\net7.0\SharedModels.pdb
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.AssemblyInfoInputs.cache
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.AssemblyInfo.cs
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.csproj.CoreCompileInputs.cache
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.dll
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\refint\SharedModels.dll
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.pdb
+C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\ref\SharedModels.dll

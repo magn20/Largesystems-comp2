@@ -1,0 +1,92 @@
+version: "3"
+services:
+  measurement-api:
+    build:
+      context: .
+      dockerfile: MeasurementApi/Dockerfile
+    networks:
+      - client_net
+      - backend_net
+        
+  measurement-service:
+    build:
+      context: .
+      dockerfile: MeasurementService/Dockerfile
+    networks:
+      - backend_net
+        
+  measurement-db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      MSSQL_SA_PASSWORD: "measurementPassword7!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - mssql-measurement:/var/opt/mssql
+    networks:
+      - backend_net
+
+  patient-api:
+    build:
+      context: .
+      dockerfile: PatientApi/Dockerfile
+    ports:
+      - 5005:80
+    networks:
+      - client_net
+      - backend_net
+        
+  patient-service:
+    build:
+      context: .
+      dockerfile: PatientService/Dockerfile
+    networks:
+      - backend_net
+  
+  featurehub:
+    image: featurehub/party-server:latest
+    restart: always
+    volumes:
+      - featurehub-h2-data:/db
+    ports:
+      - 8085:8085
+    networks:
+      - backend_net
+  
+  patient-db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      MSSQL_SA_PASSWORD: "patientPassword7!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - mssql-patient:/var/opt/mssql
+    networks:
+      - backend_net
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - 9411:9411
+    networks:
+      - backend_net
+      - client_net
+
+  seq:
+    image: datalust/seq
+    ports:
+      - 5341:5341
+      - 5342:80
+    environment:
+      - ACCEPT_EULA=Y
+    networks:
+      - backend_net
+      - client_net
+        
+networks:
+  backend_net:
+    external: false
+    driver: bridge
+  client_net:
+    external: true
+volumes:
+  mssql-patient:
+  mssql-measurement:
+  featurehub-h2-data:
