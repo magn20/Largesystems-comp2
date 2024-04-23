@@ -19,8 +19,16 @@ public class PatientServiceController : ControllerBase
     }
     
     [HttpGet]
-    [Route("GetPatient/{id:int}")]
-    public ActionResult GetPatient([FromRoute] int id)
+    [Route("GetAllPatient")]
+    public ActionResult GetAllPatient()
+    {
+        Log.Logger.Debug("Entered PatientService");
+        return Ok(_service.GetAllPatient());
+    }
+    
+    [HttpGet]
+    [Route("GetPatient/{id}")]
+    public ActionResult GetPatient([FromRoute] string id)
     {
         Log.Logger.Debug("Entered PatientService");
         return Ok(_service.GetPatient(id));

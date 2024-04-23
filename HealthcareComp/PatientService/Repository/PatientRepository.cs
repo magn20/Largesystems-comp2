@@ -68,7 +68,7 @@ public class PatientRepository : IPatientRepository
         }
     }
 
-    public Patient GetPatient(int ssn)
+    public Patient GetPatient(string ssn)
     {
         try
         {
@@ -98,4 +98,36 @@ public class PatientRepository : IPatientRepository
             throw new DatabaseReadException("Failed to get patient", ex);
         }
     }
+
+    public List<Patient> GetAllPatient()
+    {
+        
+        try
+        {
+            var patientList = new List<Patient>();
+             using var con = GetConnection();
+            var command = new SqlCommand("SELECT * FROM Patient", con);
+
+            using var reader =  command.ExecuteReader();
+            while (reader.Read())
+            {
+                var patient = new Patient()
+                {
+                    Ssn = reader.GetString(reader.GetOrdinal("ssn")),
+                    Mail = reader.GetString(reader.GetOrdinal("mail")),
+                    Name = reader.GetString(reader.GetOrdinal("name")),
+                };
+                patientList.Add(patient);
+            }
+
+            return patientList;
+        }
+        catch (System.Exception ex)
+        {
+            Log.Logger.Error("Get all patients failed with the Exception: {DatabaseReadException}", ex);
+            throw new DatabaseReadException("Failed to get all patients", ex);
+        }
+    }
+    
+    
 }

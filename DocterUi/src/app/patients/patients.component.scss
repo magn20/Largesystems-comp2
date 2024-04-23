@@ -1,0 +1,39 @@
+.info {
+  margin-left: 30px;
+}
+
+.patientInfoBox {
+  border: 2px solid gray;
+  transition: border-color 0.3s, transform 0.3s;
+  padding: 10px;
+  position: relative;
+}
+
+.deletePatient {
+  padding: 5px 10px;
+}
+
+.deletePatient {
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  bottom: 5px;
+}
+
+.deletePatient:hover {
+  background-color: #490000;
+}
+
+.patientInfoBox:hover {
+  border-color: blue;
+  transform: scale(1.05);
+}
+
+.addPatient{
+  background-color: green;
+}
+.addPatient:hover{
+  background-color: #005600;
+  transform: scale(1.05);
+}

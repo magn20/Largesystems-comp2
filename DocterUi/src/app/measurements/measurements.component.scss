@@ -1,0 +1,28 @@
+.info {
+  margin-left: 30px;
+}
+
+.patientInfoBox {
+  border: 2px solid gray;
+  transition: border-color 0.3s, transform 0.3s;
+  padding: 10px;
+  position: relative;
+}
+
+
+.patientInfoBox:hover {
+  border-color: blue;
+  transform: scale(1.05);
+}
+.seen {
+  padding: 5px 10px;
+}
+
+.seen {
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  bottom: 5px;
+}
+

@@ -13,12 +13,12 @@ public class MeasurementService : IMeasurementService
         _Repository = repository;
     }
     
-    public List<Measurement> GetPatientMeasurement(int id)
+    public List<Measurement> GetPatientMeasurement(string id)
     {
         return _Repository.GetMeasurement(id);
     }
 
-    public void AddMeasurement(Measurement measurement, int patientSsn)
+    public void AddMeasurement(Measurement measurement, string patientSsn)
     {
         _Repository.AddMeasurement(measurement, patientSsn);
     }

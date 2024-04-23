@@ -4,9 +4,9 @@ namespace MeasurementService;
 
 public interface IMeasurementService
 {
-    public List<Measurement> GetPatientMeasurement(int id);
+    public List<Measurement> GetPatientMeasurement(string id);
 
-    public void AddMeasurement(Measurement measurement, int patientSsn);
+    public void AddMeasurement(Measurement measurement, string patientSsn);
 
     public void UpdateMeasurement(Measurement measurement);
 }

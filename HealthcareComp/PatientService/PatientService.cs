@@ -18,7 +18,7 @@ public class PatientService : IPatientService
         _repo = repo;
     }
     
-    public Patient GetPatient(int id)
+    public Patient GetPatient(string id)
     {
         var patient = _repo.GetPatient(id);
         var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{MeasurementApi}/GetPatientMeasurement/{id}"));
@@ -29,6 +29,12 @@ public class PatientService : IPatientService
         
         patient.Measurement = measurements; 
             
+        return patient;
+    }
+    
+    public List<Patient> GetAllPatient()
+    {
+        var patient = _repo.GetAllPatient();
         return patient;
     }
     public void AddPatient(Patient patient)

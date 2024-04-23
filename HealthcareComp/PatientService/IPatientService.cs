@@ -4,7 +4,8 @@ namespace PatientService;
 
 public interface IPatientService
 {
-    public Patient GetPatient(int id);
+    public Patient GetPatient(string id);
+    public List<Patient> GetAllPatient();
     
     public void AddPatient(Patient patient);
     

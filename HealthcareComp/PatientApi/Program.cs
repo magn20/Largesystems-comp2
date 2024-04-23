@@ -26,6 +26,14 @@ FeatureLogging.ErrorLogger += (sender,s) => Log.Logger.Error("ERROR: " + s);
 var config = new EdgeFeatureHubConfig("http://featurehub:8085","27ed89c2-84e7-4c52-bb38-c9b218e6c249/BohDZa6N5LxdBfXoRHOuKXwEqOQgpnN9oozF4Ecw");
 builder.Services.AddSingleton(config);
 
+builder.Services.AddCors(options =>  
+{  
+    options.AddPolicy("CorsPolicy",  
+        builder => builder.AllowAnyOrigin()  
+            .AllowAnyMethod()  
+            .AllowAnyHeader());  
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -35,6 +43,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

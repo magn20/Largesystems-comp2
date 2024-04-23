@@ -1,0 +1,5 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns each taking 1 fraction of the available space */
+  width: 100%;
+}

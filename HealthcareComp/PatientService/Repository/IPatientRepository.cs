@@ -10,7 +10,8 @@ public interface IPatientRepository
 
     void DeletePatient(Patient patient);
 
-    Patient GetPatient(int ssn);
+    Patient GetPatient(string ssn);
+    List<Patient> GetAllPatient();
     
 
 }

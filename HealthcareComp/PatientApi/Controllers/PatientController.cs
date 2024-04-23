@@ -25,10 +25,42 @@ public class PatientController : ControllerBase
         _edgeFeatureHubConfig = edgeFeatureHubConfig;
     }
     
+    [HttpGet]
+    [Route("GetAllPatient")]
+    public async Task<ActionResult> GetAllPatient()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{PatientService}/GetAllPatient"));
+        Log.Logger.Debug("Entered Patient controller");
+
+        TraceRequest.InjectContext(request);
+
+        var resultMessage = await _client.SendAsync(request);
+
+        if (resultMessage.IsSuccessStatusCode)
+        {
+            var resultContent = await resultMessage.Content.ReadAsStringAsync();
+            return Ok(resultContent);
+        }
+
+        if (resultMessage.StatusCode == HttpStatusCode.InternalServerError)
+        {
+            Log.Logger.Error("failed with status code of {resultMessageStatusCode} message is: {resultMessage}",
+                resultMessage.StatusCode, resultMessage);
+            return StatusCode(StatusCodes.Status500InternalServerError, "Failed to read database");
+        }
+
+        Log.Logger.Error(
+            "unknown issue occured with status code of {resultMessageStatusCode} message is: {resultMessage}",
+            resultMessage.StatusCode, resultMessage);
+        return Problem("Unknown error occured");
+
+    }
+    
+    
     
     [HttpGet]
-    [Route("GetPatient/{id:int}")]
-    public async Task<ActionResult> GetPatient([FromRoute] int id)
+    [Route("GetPatient/{id}")]
+    public async Task<ActionResult> GetPatient([FromRoute] string id)
     {
         var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"http://{PatientService}/GetPatient/{id}"));
         Log.Logger.Debug("Entered Patient controller");

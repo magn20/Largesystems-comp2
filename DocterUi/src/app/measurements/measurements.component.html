@@ -1,0 +1,11 @@
+<p>measurements!</p>
+<div *ngFor="let m of this.service.measurements" class="clearfix">
+  <div class="patientInfoBox">
+    <label class="info">id: {{m.id}}</label>
+    <label class="info">date: {{m.date}}</label>
+    <label class="info">systolic: {{m.systolic}}</label>
+    <label class="info">diastolic: {{m.diastolic}}</label>
+    <input type="checkbox" [(ngModel)]="m.seen" class="info" (click)="updateSeen(m)">
+  </div>
+  <br>
+</div>

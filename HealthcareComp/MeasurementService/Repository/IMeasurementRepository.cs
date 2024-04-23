@@ -6,9 +6,9 @@ public interface IMeasurementRepository
 {
     void RecreateDatabase();
 
-    void AddMeasurement(Measurement measurement, int patientSsn);
+    void AddMeasurement(Measurement measurement, string patientSsn);
 
     void UpdateMeasurement(Measurement measurement);
 
-    List<Measurement> GetMeasurement(int patientSsn);
+    List<Measurement> GetMeasurement(string patientSsn);
 }

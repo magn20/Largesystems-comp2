@@ -1,0 +1,24 @@
+<p>patients!</p>
+<div *ngFor="let p of this.patients" class="clearfix">
+  <div class="patientInfoBox">
+    <label class="info">Name: {{p.name}}</label>
+    <label class="info">ssn: {{p.ssn}}</label>
+    <label class="info">mail: {{p.mail}}</label>
+    <button (click)="checkMeasurement(p.ssn)">Check</button>
+    <button class="deletePatient" (click)="deletePatient(p)">Delete</button>
+  </div>
+  <br>
+</div>
+<br>
+<div>
+  <label class="">name</label>
+  <input type="text" [(ngModel)]="name">
+
+  <label class="info">ssn</label>
+  <input type="text" [(ngModel)]="ssn">
+
+  <label class="info">mail</label>
+  <input type="text" [(ngModel)]="mail">
+
+  <button class="addPatient" (click)="addPatient()">Add patient</button>
+</div>

@@ -17,8 +17,8 @@ public class MeasurementServiceController : ControllerBase
         _measurementService = measurementService;
     }
      [HttpGet]
-    [Route("GetPatientMeasurement/{id:int}")]
-    public async Task<ActionResult<List<Measurement>>> GetPatientMeasurement([FromRoute] int id)
+    [Route("GetPatientMeasurement/{id}")]
+    public async Task<ActionResult<List<Measurement>>> GetPatientMeasurement([FromRoute] string id)
     {
         Log.Logger.Debug("Entered Measurement Api");
         
@@ -26,8 +26,8 @@ public class MeasurementServiceController : ControllerBase
     }
     
     [HttpPost]
-    [Route("AddMeasurement/{patientSsn:int}")]
-    public async Task<ActionResult> AddMeasurement(Measurement measurement, [FromRoute] int patientSsn)
+    [Route("AddMeasurement/{patientSsn}")]
+    public async Task<ActionResult> AddMeasurement(Measurement measurement, [FromRoute] string patientSsn)
     {
         Log.Logger.Debug("Entered Measurement controller");
         _measurementService.AddMeasurement(measurement, patientSsn);
