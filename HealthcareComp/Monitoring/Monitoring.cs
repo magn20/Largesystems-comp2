@@ -28,8 +28,7 @@ public static class Monitoring
                 .AddConsoleExporter();
         });
     }
-    
-    
+
     public static LoggerConfiguration LoggingSetup(this LoggerConfiguration loggerConfiguration)  
     {  
         return loggerConfiguration  
