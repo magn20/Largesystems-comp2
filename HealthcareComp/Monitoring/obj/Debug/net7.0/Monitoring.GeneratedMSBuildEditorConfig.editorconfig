@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Monitoring
-build_property.ProjectDir = C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\Largesystems-comp2\HealthcareComp\Monitoring\
+build_property.ProjectDir = C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\Monitoring\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

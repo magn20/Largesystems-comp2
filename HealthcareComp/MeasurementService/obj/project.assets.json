@@ -3849,19 +3849,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Overgaard\\.nuget\\packages\\": {}
+    "C:\\Users\\45535\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+      "projectUniqueName": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
       "projectName": "MeasurementService",
-      "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
-      "packagesPath": "C:\\Users\\Overgaard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\obj\\",
+      "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+      "packagesPath": "C:\\Users\\45535\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Overgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\45535\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -3873,11 +3873,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
-              "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj"
+            "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
+              "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj"
             },
-            "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
-              "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj"
+            "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
+              "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj"
             }
           }
         }
@@ -3932,7 +3932,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

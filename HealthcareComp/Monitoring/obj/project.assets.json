@@ -1514,19 +1514,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Overgaard\\.nuget\\packages\\": {}
+    "C:\\Users\\45535\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+      "projectUniqueName": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
       "projectName": "Monitoring",
-      "projectPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
-      "packagesPath": "C:\\Users\\Overgaard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Overgaard\\Documents\\GitHub\\LargeSystems-comp2\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
+      "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+      "packagesPath": "C:\\Users\\45535\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Overgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\45535\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1607,7 +1607,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
