@@ -20,7 +20,7 @@ jobs:
       - name: Build and push MeasurementApi
         uses: docker/build-push-action@v4
         with:
-          context: ./HealthcareComp/
+          context: HealthcareComp/
           push: true
           tags: christianhesberg/measurement-api:latest
           
