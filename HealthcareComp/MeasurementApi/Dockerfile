@@ -6,7 +6,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["MeasurementApi/MeasurementApi.csproj", "MeasurementApi/"]
+COPY ["MeasurementApi.csproj", "./"]
 RUN dotnet restore "MeasurementApi/MeasurementApi.csproj"
 COPY . .
 WORKDIR "/src/MeasurementApi"
