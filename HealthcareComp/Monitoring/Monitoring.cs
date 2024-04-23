@@ -29,6 +29,7 @@ public static class Monitoring
         });
     }
     
+    
     public static LoggerConfiguration LoggingSetup(this LoggerConfiguration loggerConfiguration)  
     {  
         return loggerConfiguration  
