@@ -21,6 +21,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: HealthcareComp/
+          file: HealthcareComp/MeasurementApi/Dockerfile
           push: true
           tags: christianhesberg/measurement-api:latest
           
