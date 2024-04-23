@@ -20,7 +20,7 @@ jobs:
       - name: Build and push MeasurementApi
         uses: docker/build-push-action@v5
         with:
-          context: HealthcareComp/MeasurementApi/
+          context: HealthcareComp/
           push: true
           tags: christianhesberg/measurement-api:latest
           
@@ -39,7 +39,7 @@ jobs:
       - name: Build and push MeasurementService
         uses: docker/build-push-action@v5
         with:
-          context: HealthcareComp/MeasurementService/
+          context: HealthcareComp/
           push: true
           tags: christianhesberg/measurement-service:latest
           
@@ -58,7 +58,7 @@ jobs:
       - name: Build and push PatientApi
         uses: docker/build-push-action@v5
         with:
-          context: HealthcareComp/PatientApi/
+          context: HealthcareComp/
           push: true
           tags: christianhesberg/patient-api:latest
           
@@ -77,7 +77,7 @@ jobs:
       - name: Build and push PatientService
         uses: docker/build-push-action@v5
         with:
-          context: HealthcareComp/PatientService/
+          context: HealthcareComp/
           push: true
           tags: christianhesberg/patient-service:latest
         
