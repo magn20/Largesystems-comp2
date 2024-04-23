@@ -9,7 +9,25 @@ services:
     networks:
       - client_net
       - backend_net
-        
+      
+  patientui:
+    build:
+      context: ../PatientUi
+      dockerfile: ../PatientUi/Dockerfile
+    networks:
+      - client_net
+    ports:
+      - 5002:4200
+  
+  
+  docterui:
+    build:
+      context: ../DocterUi
+      dockerfile: ../DocterUi/Dockerfile
+    networks:
+      - client_net
+    ports:
+      - 5003:4200 
   measurement-service:
     build:
       context: .
