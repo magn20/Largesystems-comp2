@@ -9,3 +9,15 @@ C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedMode
 C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\refint\SharedModels.dll
 C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.pdb
 C:\Users\Overgaard\Documents\GitHub\LargeSystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\ref\SharedModels.dll
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\bin\Debug\net7.0\SharedModels.deps.json
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\bin\Debug\net7.0\SharedModels.dll
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\bin\Debug\net7.0\SharedModels.pdb
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.AssemblyInfoInputs.cache
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.AssemblyInfo.cs
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.csproj.CoreCompileInputs.cache
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.sourcelink.json
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.dll
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\refint\SharedModels.dll
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\SharedModels.pdb
+C:\Users\45535\IdeaProjects\Largesystems-comp2\HealthcareComp\SharedModels\obj\Debug\net7.0\ref\SharedModels.dll
