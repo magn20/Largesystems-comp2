@@ -8,7 +8,8 @@ export class MeasurementService {
 
   constructor() { }
 
-  updateSeen(dto: { id: string; Diastolic: string; Systolic: string; date: string; seen:boolean }){
+  updateSeen(dto: { id: string; diastolic: string; systolic: string; date: string; seen:boolean }){
+    console.log(dto)
    const httpResult = axios.put("http://localhost:5004/measurement/UpdateMeasurement", dto)
   }
 }

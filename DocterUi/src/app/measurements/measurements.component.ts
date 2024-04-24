@@ -14,7 +14,14 @@ export class MeasurementsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  updateSeen(measurement: any){
-    this.measurementService.updateSeen(measurement)
+  updateSeen(measurement: { id: string; diastolic: string; systolic: string; date: string; seen:boolean }){
+    let dto = {
+      id: measurement.id,
+      systolic: measurement.systolic,
+      diastolic: measurement.diastolic,
+      date: measurement.date,
+      seen: !measurement.seen,
+    }
+    this.measurementService.updateSeen(dto)
   }
 }

@@ -31,7 +31,6 @@ public class MeasurementRepository : IMeasurementRepository
 
     public void AddMeasurement(Measurement measurement, string patientSsn)
     {
-        RecreateDatabase();
         try
         {
             using var con = GetConnection();
