@@ -8,6 +8,13 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
 
 jobs:
   build:
@@ -16,10 +23,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 7.0.x
+          
       - name: Restore dependencies
         run: dotnet restore
         working-directory: ./HealthcareComp
