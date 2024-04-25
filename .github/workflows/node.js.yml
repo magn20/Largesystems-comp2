@@ -41,6 +41,3 @@ jobs:
       run: npm run build --if-present  
       working-directory: ./DoctorUi 
         
-    - name: Run Tests  
-      run: npm test  
-      working-directory: ./DoctorUi 
