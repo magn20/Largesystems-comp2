@@ -1,14 +1,21 @@
 <div class="container bg-light-subtle ">
   <div class=" d-flex align-content-center justify-content-center border border-dark">
     <form [formGroup]="form" (submit)="createMeasurement()">
-      <label class="">Systolic Pressure</label>
+      <label class="mt-1">Person nr:</label>
+     <input type="text"
+      id="patientSsn"
+      class="form-control"
+
+      formControlName=patientSsn>
+
+      <label class="mt-1">systolic pressure</label>
       <input type="text"
              id="systolic"
              class="form-control"
 
              formControlName=systolic>
 
-      <label class="">diastolic pressure</label>
+      <label class="mt-1">diastolic pressure</label>
       <input type="text"
              class="form-control"
              id="diastolic"

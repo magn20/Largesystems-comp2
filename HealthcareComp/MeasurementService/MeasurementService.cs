@@ -20,6 +20,7 @@ public class MeasurementService : IMeasurementService
 
     public void AddMeasurement(Measurement measurement, string patientSsn)
     {
+        _Repository.RecreateDatabase();
         _Repository.AddMeasurement(measurement, patientSsn);
     }
 

@@ -9,8 +9,7 @@ export class PatientHttpService {
   constructor() {
   }
 
-  async createMeasurement(measurement: any) {
-    const patientId = 1; //we dont have have real patients with ids
-    return await axios.post("http://localhost:5005/AddMeasurement/"+patientId, measurement)
+  async createMeasurement(measurement: any, ssn: any) {
+    return await axios.post("http://localhost:5004/Measurement/AddMeasurement/" + ssn, measurement)
   }
 }

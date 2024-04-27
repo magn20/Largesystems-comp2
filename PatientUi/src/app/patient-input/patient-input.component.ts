@@ -10,7 +10,8 @@ import {PatientHttpService} from "../backend communication/patient-http.service"
 export class PatientInputComponent implements OnInit {
   form: FormGroup = this.formBuilder.group({
     systolic: ["", Validators.required],
-    diastolic: ["", Validators.required]
+    diastolic: ["", Validators.required],
+    patientSsn: ["", Validators.required]
   });
 
 
@@ -27,11 +28,13 @@ export class PatientInputComponent implements OnInit {
       const measurement = {
         Systolic: this.form.controls["systolic"].value,
         Diastolic: this.form.controls["diastolic"].value,
-        Date: Date.now()
+        Date: new Date()
       }
-      this.patientService.createMeasurement(measurement)
+      const ssn = this.form.controls["patientSsn"].value;
+      this.patientService.createMeasurement(measurement, ssn)
     } else {
-      console.log("fuck you")
+      console.log("form not valid")
+      console.log(this.form.errors)
     }
   }
 }
