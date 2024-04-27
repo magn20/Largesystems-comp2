@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {}
+    "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {
+    "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
         "projectName": "MeasurementService",
-        "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
-        "packagesPath": "C:\\Users\\45535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\MeasurementService.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\MeasurementService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\45535\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
-                "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj"
+              "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj"
               },
-              "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
-                "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj"
+              "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj"
               }
             }
           }
@@ -85,26 +91,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
+    "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
         "projectName": "Monitoring",
-        "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
-        "packagesPath": "C:\\Users\\45535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\45535\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,26 +192,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
+    "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
         "projectName": "SharedModels",
-        "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
-        "packagesPath": "C:\\Users\\45535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\SharedModels\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\SharedModels\\SharedModels.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\45535\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -233,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

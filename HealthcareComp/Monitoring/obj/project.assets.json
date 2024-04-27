@@ -1514,24 +1514,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45535\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruger\\.nuget\\packages\\": {},
+    "C:\\Users\\Bruger\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+      "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
       "projectName": "Monitoring",
-      "projectPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
-      "packagesPath": "C:\\Users\\45535\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45535\\IdeaProjects\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
+      "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\Monitoring.csproj",
+      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\Largesystems-comp2\\HealthcareComp\\Monitoring\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\Bruger\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\45535\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1607,7 +1614,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

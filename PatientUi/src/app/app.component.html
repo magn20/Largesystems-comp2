@@ -1,0 +1,12 @@
+<div class="col" *ngIf="isDanish">
+  <h2 class="mt-2 mb-2 text-center"> Input your shit</h2>
+  <app-patient-input></app-patient-input>
+</div>
+
+
+<div class="d-flex justify-content-center align-content-center"
+     *ngIf="!isDanish"
+>
+  <h1 class="h1 border border-3 border-danger"> Your ass is outside Denmark </h1>
+</div>
+
