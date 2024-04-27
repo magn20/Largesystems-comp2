@@ -110,7 +110,7 @@ jobs:
           context: DoctorUi/
           file: DoctorUi/Dockerfile
           push: true
-          tags: christianhesberg/patient-service:latest
+          tags: christianhesberg/doctor-ui:latest
         
   build-and-push-patient-ui:
     runs-on: ubuntu-latest
@@ -130,4 +130,4 @@ jobs:
           context: PatientUi/
           file: PatientUi/Dockerfile
           push: true
-          tags: christianhesberg/patient-service:latest
+          tags: christianhesberg/patient-ui:latest
