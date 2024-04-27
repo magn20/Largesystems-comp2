@@ -22,8 +22,8 @@ services:
   
   docterui:
     build:
-      context: ../DocterUi
-      dockerfile: ../DocterUi/Dockerfile
+      context: ../DoctorUi
+      dockerfile: ../DoctorUi/Dockerfile
     networks:
       - client_net
     ports:
